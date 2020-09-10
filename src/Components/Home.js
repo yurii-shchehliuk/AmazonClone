@@ -14,17 +14,17 @@ function Home() {
         />
         <div className="home__row">
           {/* Product */}
-          <Product  title={state.zank} price={23.22} rating={4} image="https://images-na.ssl-images-amazon.com/images/I/51Zymoq7UnL._AC_SY400_.jpg"/>
+          <Product  title="{state.zank}" price={23.22} rating={4} image="https://images-na.ssl-images-amazon.com/images/I/51Zymoq7UnL._AC_SY400_.jpg"/>
           {/* Product */}
           <Product />
         </div>
         <div className="home__row">
         <Product  title="Marodi" price={2} rating={5} image="https://images-na.ssl-images-amazon.com/images/I/51Zymoq7UnL._AC_SY400_.jpg"/>
-        <Product  title="Pizdunok" price={4} rating={3} image="https://images-na.ssl-images-amazon.com/images/I/51Zymoq7UnL._AC_SY400_.jpg"/>
+        <Product  title="Pizdun" price={4} rating={3} image="https://images-na.ssl-images-amazon.com/images/I/51Zymoq7UnL._AC_SY400_.jpg"/>
         <Product  title="New book" price={25} rating={1} image="https://images-na.ssl-images-amazon.com/images/I/51Zymoq7UnL._AC_SY400_.jpg"/>
         </div>
         <div className="home__row">
-          <Product />
+        <Product  title="New book" price={25} rating={1} image="https://images-na.ssl-images-amazon.com/images/I/51Zymoq7UnL._AC_SY400_.jpg"/>
         </div>
       </div>
     </div>
